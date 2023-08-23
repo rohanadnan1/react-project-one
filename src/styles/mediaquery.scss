@@ -1,0 +1,34 @@
+@import "colors";
+
+@media screen and (max-width: 800px) {
+    nav{
+
+        >main{
+            display: flex;
+            gap: 10px;
+            margin-right:50px ;
+        }
+    }
+
+    .home-main{
+
+       >main{
+
+        >h1{
+            font-size: 7vw;
+        }
+        >h3{
+            font-size: 2vw;
+        }
+       }
+    }
+
+    .home-2{
+        >img{
+            width: 60vw;
+        }
+        >p{
+            
+        }
+    }
+}
